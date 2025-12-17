@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mahesh Bekkam | AI & Machine Learning Engineer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      padding: 100px 10%;
+      background: linear-gradient(135deg, #1e3a8a, #020617);
+    }
+
+    header h1 {
+      font-size: 3.2rem;
+      margin-bottom: 10px;
+    }
+
+    header h2 {
+      font-weight: 400;
+      color: #93c5fd;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      max-width: 850px;
+      line-height: 1.6;
+    }
+
+    header .cta {
+      margin-top: 10px;
+      font-weight: 600;
+      color: #bfdbfe;
+    }
+
+    header .buttons a {
+      display: inline-block;
+      margin-top: 25px;
+      margin-right: 15px;
+      padding: 12px 22px;
+      border-radius: 30px;
+      background: #2563eb;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    header .buttons a:hover {
+      background: #1d4ed8;
+      transform: translateY(-3px);
+    }
+
+    section {
+      padding: 70px 10%;
+    }
+
+    h3 {
+      font-size: 2.2rem;
+      margin-bottom: 25px;
+      color: #60a5fa;
+    }
+
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 15px 40px rgba(0,0,0,0.45);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+    }
+
+    .card h4 {
+      margin-top: 0;
+      color: #93c5fd;
+    }
+
+    .card ul {
+      padding-left: 18px;
+      margin-top: 10px;
+    }
+
+    .card ul li {
+      margin-bottom: 8px;
+      line-height: 1.5;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-icons a {
+      font-size: 1.5rem;
+      margin-right: 20px;
+      color: #93c5fd;
+      transition: color 0.3s, transform 0.3s;
+    }
+
+    .contact-icons a:hover {
+      color: #60a5fa;
+      transform: scale(1.2);
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px;
+      background: #020617;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <h1>Mahesh Bekkam</h1>
+  <h2>AI & Machine Learning Engineer</h2>
+
+  <p>
+    Aspiring AI & Machine Learning Engineer with hands-on experience in building
+    machine learning and deep learning solutions using Python, CNN, RNN, LSTM,
+    and NLP. Focused on applying AI to solve real-world problems.
+  </p>
+
+  <p class="cta">
+    Currently seeking entry-level AI / Machine Learning opportunities.
+  </p>
+
+  <div class="buttons">
+    <a href="#projects"><i class="fa-solid fa-code"></i> View Projects</a>
+    <a href="resume.pdf" target="_blank"><i class="fa-solid fa-file"></i> Resume</a>
+  </div>
+</header>
+
+<!-- ABOUT -->
+<section>
+  <h3>About Me</h3>
+  <p>
+    I am an aspiring AI & Machine Learning Engineer with a strong foundation in
+    Machine Learning, Deep Learning, and Natural Language Processing. I enjoy
+    building practical AI systems and continuously improving through hands-on
+    projects and real-world exposure.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section>
+  <h3>Skills</h3>
+  <div class="skills">
+    <div class="card">Python, SQL</div>
+    <div class="card">Machine Learning & Deep Learning</div>
+    <div class="card">CNN, ANN, RNN, LSTM, GRU</div>
+    <div class="card">NLP, TF-IDF, Text Classification</div>
+    <div class="card">TensorFlow, Keras, PyTorch, OpenCV</div>
+    <div class="card">GitHub, Google Colab, VS Code</div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h3>Projects</h3>
+  <div class="projects">
+
+    <div class="card">
+      <h4>AI-Powered Online Assessment Platform</h4>
+      <p><strong>Impact:</strong> Improved exam integrity and reduced malpractice risk.</p>
+      <ul>
+        <li>Developed AI-based proctoring with face and multiple-person detection</li>
+        <li>Implemented tab-switch and noise detection to reduce cheating attempts</li>
+        <li>Designed automated evaluation for MCQs and coding assessments</li>
+      </ul>
+      <p><strong>Tech:</strong> Python, OpenCV, Deep Learning, Machine Learning</p>
+      <p><a href="https://github.com/Maahivarma" target="_blank">View on GitHub ↗</a></p>
+    </div>
+
+    <div class="card">
+      <h4>CNN Handwritten Digit Recognition</h4>
+      <p><strong>Impact:</strong> Achieved high-accuracy digit classification on image data.</p>
+      <ul>
+        <li>Built a Convolutional Neural Network (CNN) for handwritten digit recognition</li>
+        <li>Performed data preprocessing, model training, and evaluation</li>
+        <li>Optimized CNN architecture for improved prediction accuracy</li>
+      </ul>
+      <p><strong>Tech:</strong> Python, TensorFlow, Keras</p>
+      <p><a href="https://github.com/Maahivarma" target="_blank">View on GitHub ↗</a></p>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section>
+  <h3>Experience</h3>
+  <div class="card">
+    <h4>Customer Support Associate – Firstsource Solutions Ltd</h4>
+    <p>Client: Comcast (Xfinity) | Jul 2024 – Aug 2025</p>
+    <ul>
+      <li>Handled high-volume customer interactions in a process-driven corporate environment</li>
+      <li>Resolved billing and service-related issues while adhering to SOPs and quality standards</li>
+      <li>Promoted to Quality Associate within 6 months based on performance and accuracy</li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <h3>Contact</h3>
+  <p>
+    <a href="mailto:maheshbekkam29@gmail.com">maheshbekkam29@gmail.com</a>
+  </p>
+
+  <div class="contact-icons">
+    <a href="https://github.com/Maahivarma" target="_blank"><i class="fa-brands fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/maheshbekkam/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Mahesh Bekkam • AI & Machine Learning Portfolio</p>
+</footer>
+
+</body>
+</html>
